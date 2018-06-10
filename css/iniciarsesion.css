@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contenedorModal{
+    background: rgba(1, 0, 2, 0.658);   
+    position: absolute;
+    margin-top: -55%;
+    margin-left: 20%;
+    z-index: 3;
+    padding: 30px 50px;
+    color: #333;
+    border-radius: 30px;
+    width: 55%;
+    
+ }
+.registro{
+    width: 25%;
+    margin-top: 10px;
+    margin-left: auto;
+    background-color: rgb(61, 10, 247);
+    color: rgb(12, 176, 226);
+    text-align: center;
+    border-radius: 13px 13px;
+    padding-top: 0px;
+}
+.secion{
+    text-align: center;
+    font-family:sans-serif;
+    color: black;
+    margin: 10px;
+    
+}
+input[type="text"], input[type="password"]{
+   border: none;
+    background: transparent;
+    border-bottom: 1px solid ;
+    display: block;
+    top: 0;
+    left: 0;
+    margin: auto;
+    margin-bottom: 35px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgb(10, 0, 20);
+}
+input[type="text"]:focus, input[type="password"]:focus{
+    border-bottom: solid #F39B53 .2rem;
+
+} 
+input[type="submit"]{
+  
+    background-color:rgba(0, 0, 0, 0.192);
+    color: aqua;
+    font-size: 18px;
+    padding: .5rem ;
+    border: none;
+    margin-left: 20%;
+    border-radius: 10px;
+    width: 60%;
+    cursor: pointer;
+}
+.registro,a{
+    background: none;
+    height:2px;
+}
